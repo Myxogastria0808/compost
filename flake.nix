@@ -27,6 +27,9 @@
           with pkgs;
           mkShell {
             buildInputs = [
+              # R
+              R
+              plumber
               # JavaScript
               nodejs
               corepack
